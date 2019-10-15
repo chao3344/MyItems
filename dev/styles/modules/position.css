@@ -1,0 +1,157 @@
+.download-header {
+  display: flex;
+  height: .6rem;
+  align-items: center;
+  background: #fff; }
+  .download-header .logo-img {
+    width: .42rem;
+    height: .42rem;
+    margin: 0 .06rem 0 .11rem; }
+  .download-header .info-wrapper {
+    height: .4rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column; }
+    .download-header .info-wrapper .title {
+      font-size: .15rem;
+      color: #333;
+      margin-bottom: .01rem;
+      font-weight: 600; }
+    .download-header .info-wrapper .content {
+      font-size: .11rem;
+      color: #666; }
+  .download-header .link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: .96rem;
+    height: 42px;
+    margin-right: .06rem;
+    border-radius: .22rem;
+    background: #f03d37;
+    color: #fff;
+    font-size: .13rem; }
+  .download-header .link-btn::after {
+    width: .19rem;
+    height: .19rem;
+    content: "";
+    position: relative;
+    background: #faaf00;
+    border-radius: .22rem;
+    margin-left: .05rem; }
+
+@keyframes changescale {
+  0% {
+    width: .19rem;
+    height: .19rem; }
+  50% {
+    width: .24rem;
+    height: .24rem; }
+  100% {
+    width: .19rem;
+    height: .19rem; } }
+
+.topbar .topbar-bg {
+  background: #fff;
+  height: .44rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+  .topbar .topbar-bg .city-entry {
+    padding-left: .15rem;
+    line-height: .44rem;
+    width: .62rem; }
+    .topbar .topbar-bg .city-entry .city-name {
+      font-size: .15rem;
+      color: #666;
+      width: .3rem;
+      height: .2rem; }
+    .topbar .topbar-bg .city-entry .city-entry-arrow {
+      width: .08rem;
+      height: .08rem;
+      background: #000; }
+  .topbar .topbar-bg .switch-hot {
+    display: flex;
+    flex: 1;
+    font-size: .15rem;
+    color: #777;
+    font-weight: 700;
+    line-height: .44rem; }
+    .topbar .topbar-bg .switch-hot .hot-item {
+      margin: 0 .12rem;
+      display: flex;
+      flex: 1;
+      justify-content: center; }
+  .topbar .topbar-bg .search-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: .45rem;
+    height: .4rem;
+    padding: .1rem .15rem .1rem .1rem;
+    font-size: .3rem;
+    color: #ef4238; }
+
+.list-wrap .item {
+  padding-left: .15rem;
+  background: #fff; }
+  .list-wrap .item .main-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .list-wrap .item .main-block .default-img-bg {
+      width: .64rem;
+      height: .9rem;
+      background-size: 100% 100%; }
+      .list-wrap .item .main-block .default-img-bg img {
+        width: .64rem;
+        height: .9rem; }
+    .list-wrap .item .main-block .column-content {
+      padding: .12rem .14rem .12rem 0;
+      padding-right: .1rem;
+      flex: 1;
+      margin-left: .1rem; }
+      .list-wrap .item .main-block .column-content .movie-title {
+        max-height: .24rem;
+        margin-bottom: .07rem;
+        line-height: .24rem;
+        overflow: hidden;
+        display: flex; }
+        .list-wrap .item .main-block .column-content .movie-title .title {
+          font-size: .17rem;
+          color: #333;
+          font-weight: 700; }
+      .list-wrap .item .main-block .column-content .score {
+        line-height: .15rem; }
+        .list-wrap .item .main-block .column-content .score .score-suffix {
+          font-size: .13rem;
+          color: #666; }
+        .list-wrap .item .main-block .column-content .score .grade {
+          font-weight: 700;
+          color: #faaf00;
+          font-size: .15rem; }
+      .list-wrap .item .main-block .column-content .actor {
+        margin-top: .06rem;
+        font-size: .13rem;
+        color: #666;
+        line-height: .15rem; }
+      .list-wrap .item .main-block .column-content .show-info {
+        margin-top: .06rem;
+        font-size: .13rem;
+        color: #666;
+        line-height: .15rem; }
+    .list-wrap .item .main-block .button-block {
+      font-size: .12rem;
+      height: .27rem; }
+      .list-wrap .item .main-block .button-block .btn {
+        width: .47rem;
+        height: .27rem;
+        line-height: .28rem;
+        text-align: center;
+        background: #f03d37;
+        border-radius: .04rem;
+        cursor: pointer;
+        color: #fff;
+        margin-right: .2rem; }

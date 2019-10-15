@@ -1,0 +1,107 @@
+<div class="cinema-content">
+    <div id="city-class" class="city-list-container">
+            <div id="hot" class="city-title">
+            热门城市
+            </div>
+            <div class="city-list city-list-inline clearfix">
+            
+                <div class="city-item" data-nm="上海" data-id="10">
+                上海
+                </div>
+            
+                <div class="city-item" data-nm="北京" data-id="1">
+                北京
+                </div>
+            
+                <div class="city-item" data-nm="广州" data-id="20">
+                广州
+                </div>
+            
+                <div class="city-item" data-nm="深圳" data-id="30">
+                深圳
+                </div>
+            
+                <div class="city-item" data-nm="武汉" data-id="57">
+                武汉
+                </div>
+            
+                <div class="city-item" data-nm="天津" data-id="40">
+                天津
+                </div>
+            
+                <div class="city-item" data-nm="西安" data-id="42">
+                西安
+                </div>
+            
+                <div class="city-item" data-nm="南京" data-id="55">
+                南京
+                </div>
+            
+                <div class="city-item" data-nm="杭州" data-id="50">
+                杭州
+                </div>
+            
+                <div class="city-item" data-nm="成都" data-id="59">
+                成都
+                </div>
+            
+                <div class="city-item" data-nm="重庆" data-id="45">
+                重庆
+                </div>
+            </div>
+            <div id="A" class="city-title city-title-letter">A</div>
+            <div id="B" class="city-title city-title-letter">B</div>
+            <div id="C" class="city-title city-title-letter">C</div>
+            <div id="D" class="city-title city-title-letter">D</div>
+            <div id="E" class="city-title city-title-letter">E</div>
+            <div id="F" class="city-title city-title-letter">F</div>
+            <div id="G" class="city-title city-title-letter">G</div>
+            <div id="H" class="city-title city-title-letter">H</div>
+            <div id="I" class="city-title city-title-letter">I</div>
+            <div id="J" class="city-title city-title-letter">J</div>
+            <div id="K" class="city-title city-title-letter">K</div>
+            <div id="L" class="city-title city-title-letter">L</div>
+            <div id="M" class="city-title city-title-letter">M</div>
+            <div id="N" class="city-title city-title-letter">N</div>
+            <div id="O" class="city-title city-title-letter">O</div>
+            <div id="P" class="city-title city-title-letter">P</div>
+            <div id="Q" class="city-title city-title-letter">Q</div>
+            <div id="R" class="city-title city-title-letter">R</div>
+            <div id="S" class="city-title city-title-letter">S</div>
+            <div id="T" class="city-title city-title-letter">T</div>
+            <div id="U" class="city-title city-title-letter">U</div>
+            <div id="V" class="city-title city-title-letter">V</div>
+            <div id="W" class="city-title city-title-letter">W</div>
+            <div id="X" class="city-title city-title-letter">X</div>
+            <div id="Y" class="city-title city-title-letter">Y</div>
+            <div id="Z" class="city-title city-title-letter">Z</div>
+            
+        
+    </div>
+    <div class="topbar-bg">
+        <div class="city-entry">
+            <span class="city-name">北京</span>
+        </div>
+        <div class="search-entry search-input" data-type="cinema">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwFJREFUSA3FVs1qU0EUTibBRQiCRF3UB3BTcFHwJ0XRJ+gDhDaQ5vcJ3PgCfYL80AYSyQP4BIKQiosuhLoQXOjCbqQIJUgoyY3fdzNnmCRzk3uvBQfmzrlzzvm+OTNzz7mJxH9qyTC83W733mQyeTKbzbbQc8lk8hL9Ip1OfyqVSr/CYCzbBBKDQHU6nX2MZfQ8HNWyM949LOAU/bharb7F6DlsnFNOYhDmp9NpGx7bTi/35HkqlaphAadu9eLsCjFIS57nNRHlLct0AnmIiL5ivETPQf8Q4y56Gt1v0F8rpRog78pc0LhATFJEemIZXwHoKJvNNguFwm9r3hcHg8Gd0WjUwEJfY+K26BH54SZyQ8ztBcB7K9IzAO01Go2fAhg0NpvNB9C9Q9+hjY781bpt9y8MyBTP1CZFpC/CkJKIdrSHyMUmiKPxXBeSJvOb2mq1DiDLRbqCvFer1f7QIGzT9nuwpz/bNnZxfy6uPv0VYWvKouKZho1UfGTUkR/JOyI3uDIno2JygMEzPTHhRRJlnFH78yvglueJ78JRzEhQyFkMXbfX5Rg0p/2HWi/4K+YKq9qSWf2dymvs0cax8W1AEuesCSaHm2gGZwnfYCuszhhh1l6EMYohGJwlfANF4gt5w+qYBv+52Tg2vg2sWNowIVVll2nQNogqa3/mcDZP48/frKdiPcWqpKKkmXstfWRR+/uFg7hB9VpSpikMTPg690YmpR/834gjiI9FXh79IoEzUUibn6GUtHnG3Bslbbbb7QxIfwDjriY5r9frj0Aux7jALSnTYxGH0bXW7gDkQ9jIdaRfLFLCfEefUXA1UxapvKl6bBF1EXUZAa0sYIFYyBFt7D8QHBu/kuebyFeINXnsf65KpfIR94WXqrSO3ElMB33hDrBNh5DX/mVCf4It7ctFwntyE3kgsbXaRL/fvz8ejx8DMPR/9SbyUMT2IqLIa8mjAMWxdZB/y2QyT80/cRzQMD78lNDKOHOa84fwZbFYtCtiGJj4Noy81+uZcvkXH+aXwmK6+EsAAAAASUVORK5CYII=">
+            <span>搜影院</span>
+        </div> 
+    </div>
+
+    <div class="tab mb-line-b">
+        <div class="item" data-tab=".region">全城<span class="drop"></span></div>
+        <div class="item" data-tab=".brand">品牌<span class="drop"></span></div>
+        <div class="item" data-tab=".special">特色<span class="drop"></span></div>
+    </div>
+
+    <div class="cinema-list-father">
+        <div class="cinema-list">
+
+            
+
+
+
+        </div>
+    </div>
+    
+</div>

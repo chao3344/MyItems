@@ -1,0 +1,21 @@
+<div class="indexContainer">
+  <header>猫眼电影</header>
+  <main>
+  </main>
+  <footer>
+    <ul>
+      <li class="active" data-to="position">
+        <span class="yo-ico">&#xe6cb;</span>
+        <span class="foot-title">电影</span>
+      </li>
+      <li data-to="cinema">
+        <span class="yo-ico">&#xe695;</span>
+        <span class="foot-title">影院</span>
+      </li>
+      <li data-to="mine">
+        <span class="yo-ico">&#xe600;</span>
+        <span class="foot-title">我的</span>
+      </li>
+    </ul>
+  </footer>
+</div>

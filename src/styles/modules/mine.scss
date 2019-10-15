@@ -1,0 +1,105 @@
+.mine-content{
+    .header-bg{
+        background-color: #e54847;
+        background-image: url('../../assets/images/mine-bg.png');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 100% 150px;
+        height: 1.50rem;
+        overflow: hidden;
+        text-align: center;
+        font-size: 14px;
+        color: #777;
+        img{
+            display: inline-block;
+            margin-top: 30px;
+            width: 60px;
+            height: 60px;
+            border-radius: 60px;
+            border: 3px solid #fff;
+        }
+    }
+    .group{
+        margin-top: 10px;
+        background: #fff;
+        .mb-outline-tb{
+            .orders{
+                padding: 0 15px;
+                position: relative;
+                overflow: hidden;
+                text-align: center;
+                .title{
+                    position: relative;
+                    margin: 13px 0 0;
+                    font-size: 15px;
+                    line-height: 21px;
+                    height: 21px;
+                    color: #333;
+                    z-index: 9;
+                    display: inline-block;
+                    width: 80px;
+                    background-color: #fff;
+                }
+                .list{
+                    overflow: hidden;
+                    width: 100%;
+                    
+                    .order-item{
+                        width: 50%;
+                        float: left;
+                        height: 97px;
+                        background-repeat: no-repeat;
+                        background-position: top;
+                        background-size: 42px auto;
+                        margin-top: 18px;
+                        a{
+                            display: block;
+                           
+                            height: 90px;
+                            text-decoration: none;
+                            font-size: 14px;
+                            color: #777;
+                        }
+                        p{
+                            position: relative;
+                            top: 53px;
+                            text-align: center;
+                            font-size: 15px;
+                            line-height: 21px;
+                            height: 21px;
+                            margin: 0;
+                            color: #333;
+                        }
+                    }
+                    .movie{
+                        background-image: url('../../assets/images/mine-movie.png');
+                    }
+                    .store{
+                        background-image: url('../../assets/images/mine-shop.png');
+                    }
+                }
+            }
+        }
+    }
+    .group{
+        margin-top: 10px;
+        background: #fff;
+        .mb-outline-tb{
+            .item{
+                position: relative;
+                height: 44px;
+                line-height: 44px;
+                font-size: 15px;
+                margin-left: 15px;
+                padding-right: 15px;
+                a{
+                    display: block;
+                    color: #333;
+                    span{
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

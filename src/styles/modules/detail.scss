@@ -1,0 +1,265 @@
+.detail-content{
+    .back{
+        height: .5rem;
+        width: .225rem;
+        line-height: .5rem;
+        padding: 0 .1rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #fff;
+        font-size: .3rem;
+    }
+    .download-header{
+        display: flex;
+        height: .6rem;
+        align-items: center;
+        background: #fff;
+        position: relative;
+        margin-top: -.01rem;
+        z-index: 99;
+        .logo-img{
+            width: .42rem;
+            height: .42rem;
+            margin: 0 .06rem 0 .11rem;
+            background: url('../../assets/images/maoyan-logo.png') no-repeat;
+            background-size: contain;
+        }
+        .info-wrapper{
+            height: .4rem;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            .title{
+                font-size: .15rem;
+                color: #333;
+                margin-bottom: .01rem;
+                font-weight: 600;
+            } 
+            .content{
+                font-size: .11rem;
+                color: #666;
+            }
+        }
+        .link-btn{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: .96rem;
+            height: 42px;
+            margin-right: .06rem;
+            border-radius: .22rem;
+            background: #f03d37;
+            color: #fff;
+            font-size: .13rem;
+            position: relative;
+        }
+        .link-btn::after{
+            width: .19rem;
+            height: .19rem;
+            position: absolute;
+            content: "";
+            position: relative;
+            background: #faaf00;
+            border-radius: .22rem;
+            margin-left: .05rem;
+            background: url('../../assets/images/mao.png') no-repeat;
+            background-size: contain;
+            animation: changescale 3s ease-in-out infinite;
+        }
+        @keyframes changescale {
+            0%{
+                transform: scale(1)
+            }
+            50%{
+                transform: scale(1.26)
+            }
+            100%{
+                transform: scale(1)
+            }
+        }
+    }
+    .poster-bg{   
+        position: relative;     
+        .blur-bg{
+            filter: blur(.18rem);
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-size: cover;
+            left: 0;
+            top: 0;
+            background-repeat: no-repeat;
+        }
+        .bg-666{
+            position: absolute;
+            background: #333;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+        }
+        .detail{
+            padding: 19px 30px 19px 15px;
+            display: flex;
+            .poster{
+                width: 1.1rem;
+                height: 1.5rem;
+                box-sizing: border-box;
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+            }
+            .content{
+                flex: 1;
+                overflow-x: hidden;
+                margin-left: .125rem;
+                line-height: 1;
+                color: #fff;
+                .line-ellipsis{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
+                .title{
+                    font-size: .2rem;
+                    margin-top: .02rem;
+                    font-weight: 700;
+                    overflow: hidden;
+                }
+                .title-en-name{
+                    margin-top: .1rem;
+                    font-size: .12rem;
+                    color: #fff;
+                    opacity: .8;
+                }
+                .score{
+                    font-size: .18rem;
+                    font-weight: 700;
+                    color: #fc0;
+                    margin-top: .11rem;
+                    .snum{
+                        margin-top: .1rem;
+                        font-size: .12rem;
+                        color: #fff;
+                        opacity: .8;
+                    }
+                }
+                .type{
+                    margin-top: .10rem;
+                    font-size: .12rem;
+                    color: #fff;
+                    opacity: .8;
+                    span{
+                        font-size: 12px;
+                        color: #fff;
+                    }
+                    .type-group{
+                        display: inline-block;
+                        width: .42rem;
+                        opacity: .85;
+                    }
+                }
+                .src,
+                .pubDesc{
+                    margin-top: .1rem;
+                    font-size: .12rem;
+                    color: #fff;
+                    opacity: .8;
+                }
+            }
+        }
+    }
+    .cniemalist{
+        background: #fff;
+        .item{
+            font-size: .14rem;
+            color: #777;
+            padding: .13rem .2rem .13rem 0;
+            margin-left: .15rem;
+            background-color: #fff;
+            position: relative;
+            overflow: hidden;
+            @include border(0 0 1px 0);
+            .line-ellipsis{
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            .title-block{
+                .title{
+                    height: .23rem;
+                    line-height: .23rem;
+                    font-size: .16rem;
+                    color: #000;
+                    .price-block{
+                        padding-top: .09rem;
+                        padding-left: .03rem;
+                        .price{
+                            font-size: .18rem;
+                            color: #f03d37;
+                        }
+                        .q{
+                            margin-left: .03rem;
+                            font-size: .11rem;
+                            color: #f03d37;
+                        }
+                    }
+                }
+                .location-block{
+                    margin-top: .06rem;
+                    font-size: .13rem;
+                    color: #666;
+                    display: flex;
+                    .flex{
+                        flex: 1;
+                    }
+                    .distance{
+                        margin-left: .05rem;
+                    }
+                }
+                .discount-block{
+                    color: #999;
+                    margin-bottom: .04rem;
+                    margin-top: .04rem;
+                    display: flex;
+                    .discount-label{
+                        width: .15rem;
+                        height: .14rem;
+                        position: relative;
+                        // top: .03rem;
+                        img{
+                            width: .15rem;
+                            height: .14rem;
+                        }
+                    }
+                    .discount-label-text{
+                        margin-left: 0;
+                        font-size: .11rem;
+                    }
+                }
+                .min-show-block{
+                    padding: 0 .15rem 0 0;
+                    margin-right: -.15rem;
+                    line-height: 1.5;
+                    font-size: 0;
+                    span{
+                        font-size: .12rem;
+                        color: #999;
+                    }
+                    .time-line{
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+    
+
+}

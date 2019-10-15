@@ -1,0 +1,256 @@
+{{each Info}}
+<div class="detail-content">
+        <a class="back" href="#" onclick="javascript: window.history.back();return false;"><i class="back">《</i></a>
+    <div class="download-header">
+        <div class="logo-img"></div>
+        <div class="info-wrapper">
+          <div class="title">猫眼</div>
+          <div class="content">0 元看电影，天天领现金</div>
+        </div>
+        <div class="link-btn">立即领取</div>
+    </div>
+
+
+    <div class="poster-bg">
+        <div class="blur-bg"></div>
+        <div class="bg-666"></div>
+        <div class="detail box-flex">
+            <div class="poster">
+                <img src="{{$value.img}}">
+            </div>
+            <div class="content flex">
+                <div class="title middle line-ellipsis">{{$value.nm}}</div>
+                <div class="title-en-name line-ellipsis">{{$value.enm}}</div>
+                <div class="score line-ellipsis">
+                        {{$value.sc}}    
+                    <span class="snum">{{$value.snum}}人评</span>
+                </div>
+                <div class="type line-ellipsis">
+                    <span>{{$value.cat}}</span>
+                    
+                        <div class="type-group">
+                            
+                            <img style="width: 26px;" class="imax" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAeCAYAAABwmH1PAAACn0lEQVRYhe2ZUW7TQBCGv0RBrUSl+KW8po/lqTkAknOBCN+gewPCDdwbmBuYGwRxAILEAZoneHRf6QNBAgmJSsvDjOu18TqWnBLV5JdW68zMemd2Z2bH2YG1FuAp8Bw4BUb0C3fALfAZ+Dmw1p4AL4Ane1Xr4fEb+DQCzhFjvwJr4Nc+tXoAHAMXwDPgfIi4MfTTWBCb1vp8OqSI2T4amyO3bTTcqxp7wMHgvqONwVNgBRiHliht0WJ8pLKJhx8ofwXMGuZfqmwdlg3jy7DWzrXhaTMriB3aSmmbhnF5y1R25eEbW2DpkUka+E08t82ttfOuLj2mvPNVRMBkyztyL/kIvATOPDJr5bvzzYBXwM0WPe7R1eDvQNzA3+byU6QoeEvh8sYja3S+BFmUAHFlkIXdbJkL6G5wguxgVMObASFijA/5gqSI8k07da3yY5Vd6vNr5bVCV4NT7et20mgfe8YGyELdIAknf98Ev9EpsoAXyGK+w58Ma9HV4EwVCClnyDPgEonLzDM2QnbIVTjV3jTMufQ8t8IuzuFYe+PQFhVe07jUoWXIIoXUJ6/AkXfjuTV2YXCGKHlJkUwMklVXnjEziuz9DbBOC5VeFyZ53F5RjufW2NXHfgx8UCU2/O2qVRjt31CfXRcqs6jQQmRxY6VFyFGV0K4I6lx4VAuMjfZZhecWHoH+rsrUFRNGf0+dQufMkQucwib6F4WHixjZ2QnluKzCaN/kAe6Z7J63hnIS3FAciSn+0vMeuzQ4RY6YPJn4kLteU+xlSA4IVW6CnAZ1Y66RmB7TvNAADKy1c31+v034kWMOh8/D/uNgcN8xRP6ZB/n/tq840v5uiFxDgHyBHNXLP2ocI9/dALf/3VXLwMpl2gly5dLny7QvwI8/pysRaQplMrsAAAAASUVORK5CYII=">
+                            
+                        </div>
+                    
+                </div>
+                <div class="src line-ellipsis">{{$value.src}}/{{$value.dur}}分钟</div>
+                <div class="pubDesc line-ellipsis">{{$value.pubDesc}}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cniemalist">
+
+    
+
+    <div class="item mb-line-b" data-id="26195">
+            
+        <div class="title-block box-flex middle">
+            <div class="title line-ellipsis">
+                <span>华联影院（回龙观店）</span>
+    
+                <span class="price-block">
+                    <span class="price">38.9</span><span class="q">元起</span>
+                </span>
+    
+            </div>
+            <div class="location-block box-flex">
+                <div class="flex line-ellipsis">昌平区回龙观镇西大街111号三层F3-90</div>
+    
+                <div class="distance">4.2km</div>
+    
+            </div>
+    
+    
+            <div class="discount-block">
+    
+                
+                    <div class="discount-label normal card">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAAAXNSR0IArs4c6QAAAgFJREFUSA3Nlz1LA0EQhmf3kouFEQwi+FEYQ+xEsImFoCDoL/CLaKd/QbC0sbCzFVuxsRS1jEVAsUqrIILRQAhaBGKMuawzwpGAm83mNhddCHfZnd3n3Z2ZuxsG2JI3YtQpVw6AiTkhYJj6/GqMwSsIdm312DsnMyzLCF79rGRAiIhfUOm6jL0FQvZU4Gfn0GU4KcINE5vjsc9LFXajE9kcfT7UDZaMQWwuG9Dpi/YyiIWZjqnSxrOAtWgANsYDysV1Bj0L0Flcx8ZoC1F0wf50UMo5fqjCY1FIxxo7jQSUHWgK+ag2YprfGwnIlQTQTk3a/46B2UEOIUu+v0gIIMgZLLTIZHJTOl+TL4K9ShckMc36Q+pc356QB6FLLJQFCqi4f39d2WoKLTy03ckg2OjAvcyXh9n1KX8eA0YC4n0MtuLoJru+o3bvjAS8o2vpfXCYsGEzZkFYHQ5SbcoglM5o6KQAoxhIDHBYiVqYERZcZB04f3aghNGv04wEuIDbQg3u8Lc4YsHymAVLeD17cuDypbWKjgggIZTpVwhM5x1YxzdlpaaXXB0T4J5GEbPy6F7/8WwUhC7U5OpZgIPfU5qnrNTn+UmoXLWNQc8n0AZDacqxUskpLXwcJDbHMinlI0O9NLI51WiAZZLa0odRZBKbU4FINRoDdtoNdxCDWMQk9jePWpE8hVOLbwAAAABJRU5ErkJggg=="
+                            alt="">
+                    </div>
+                    <div class="discount-label-text">开卡特惠，首单2张最高立减4元</div>
+                
+            </div>
+
+            <div class="min-show-block   J-fload" data-bid="dp_wx_buy_cinema_list_spread">
+                <span>近期场次：</span>
+
+                <span class="time-line">11:00 </span>
+                
+                <span class="time-line"> 11:40 </span>
+                
+                <span class="time-line"> 13:10</span>
+            </div>
+        </div>
+    </div>
+    <div class="item mb-line-b" data-id="26195">
+            
+        <div class="title-block box-flex middle">
+            <div class="title line-ellipsis">
+                <span>中影国际影城（昌平永旺店）</span>
+    
+                <span class="price-block">
+                    <span class="price">39</span><span class="q">元起</span>
+                </span>
+    
+            </div>
+            <div class="location-block box-flex">
+                <div class="flex line-ellipsis">昌平区北清路1号永旺国际商城3楼</div>
+    
+                <div class="distance">4.1km</div>
+    
+            </div>
+    
+    
+            <div class="discount-block">
+    
+                
+                    <div class="discount-label normal card">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAAAXNSR0IArs4c6QAAAgFJREFUSA3Nlz1LA0EQhmf3kouFEQwi+FEYQ+xEsImFoCDoL/CLaKd/QbC0sbCzFVuxsRS1jEVAsUqrIILRQAhaBGKMuawzwpGAm83mNhddCHfZnd3n3Z2ZuxsG2JI3YtQpVw6AiTkhYJj6/GqMwSsIdm312DsnMyzLCF79rGRAiIhfUOm6jL0FQvZU4Gfn0GU4KcINE5vjsc9LFXajE9kcfT7UDZaMQWwuG9Dpi/YyiIWZjqnSxrOAtWgANsYDysV1Bj0L0Flcx8ZoC1F0wf50UMo5fqjCY1FIxxo7jQSUHWgK+ag2YprfGwnIlQTQTk3a/46B2UEOIUu+v0gIIMgZLLTIZHJTOl+TL4K9ShckMc36Q+pc356QB6FLLJQFCqi4f39d2WoKLTy03ckg2OjAvcyXh9n1KX8eA0YC4n0MtuLoJru+o3bvjAS8o2vpfXCYsGEzZkFYHQ5SbcoglM5o6KQAoxhIDHBYiVqYERZcZB04f3aghNGv04wEuIDbQg3u8Lc4YsHymAVLeD17cuDypbWKjgggIZTpVwhM5x1YxzdlpaaXXB0T4J5GEbPy6F7/8WwUhC7U5OpZgIPfU5qnrNTn+UmoXLWNQc8n0AZDacqxUskpLXwcJDbHMinlI0O9NLI51WiAZZLa0odRZBKbU4FINRoDdtoNdxCDWMQk9jePWpE8hVOLbwAAAABJRU5ErkJggg=="
+                            alt="">
+                    </div>
+                    <div class="discount-label-text">开卡特惠，首单2张最高立减5元</div>
+                
+            </div>
+
+            <div class="min-show-block   J-fload" data-bid="dp_wx_buy_cinema_list_spread">
+                <span>近期场次：</span>
+
+                <span class="time-line">11:00 </span>
+                
+                <span class="time-line"> 11:40 </span>
+                
+                <span class="time-line"> 13:10</span>
+            </div>
+        </div>
+    </div>
+    <div class="item mb-line-b" data-id="26195">
+            
+        <div class="title-block box-flex middle">
+            <div class="title line-ellipsis">
+                <span>沙河镇中影智信影城</span>
+    
+                <span class="price-block">
+                    <span class="price">38</span><span class="q">元起</span>
+                </span>
+    
+            </div>
+            <div class="location-block box-flex">
+                <div class="flex line-ellipsis">昌平区奇点中心（北京市昌平区能源东路1号）</div>
+    
+                <div class="distance">4.4km</div>
+    
+            </div>
+    
+    
+            <div class="discount-block">
+    
+                
+                    <div class="discount-label normal card">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAAAXNSR0IArs4c6QAAAgFJREFUSA3Nlz1LA0EQhmf3kouFEQwi+FEYQ+xEsImFoCDoL/CLaKd/QbC0sbCzFVuxsRS1jEVAsUqrIILRQAhaBGKMuawzwpGAm83mNhddCHfZnd3n3Z2ZuxsG2JI3YtQpVw6AiTkhYJj6/GqMwSsIdm312DsnMyzLCF79rGRAiIhfUOm6jL0FQvZU4Gfn0GU4KcINE5vjsc9LFXajE9kcfT7UDZaMQWwuG9Dpi/YyiIWZjqnSxrOAtWgANsYDysV1Bj0L0Flcx8ZoC1F0wf50UMo5fqjCY1FIxxo7jQSUHWgK+ag2YprfGwnIlQTQTk3a/46B2UEOIUu+v0gIIMgZLLTIZHJTOl+TL4K9ShckMc36Q+pc356QB6FLLJQFCqi4f39d2WoKLTy03ckg2OjAvcyXh9n1KX8eA0YC4n0MtuLoJru+o3bvjAS8o2vpfXCYsGEzZkFYHQ5SbcoglM5o6KQAoxhIDHBYiVqYERZcZB04f3aghNGv04wEuIDbQg3u8Lc4YsHymAVLeD17cuDypbWKjgggIZTpVwhM5x1YxzdlpaaXXB0T4J5GEbPy6F7/8WwUhC7U5OpZgIPfU5qnrNTn+UmoXLWNQc8n0AZDacqxUskpLXwcJDbHMinlI0O9NLI51WiAZZLa0odRZBKbU4FINRoDdtoNdxCDWMQk9jePWpE8hVOLbwAAAABJRU5ErkJggg=="
+                            alt="">
+                    </div>
+                    <div class="discount-label-text">开卡特惠，首单2张最高立减4元</div>
+                
+            </div>
+
+            <div class="min-show-block   J-fload" data-bid="dp_wx_buy_cinema_list_spread">
+                <span>近期场次：</span>
+
+                <span class="time-line">11:00 </span>
+                
+                <span class="time-line"> 11:40 </span>
+                
+                <span class="time-line"> 13:10</span>
+            </div>
+        </div>
+    </div>
+    <div class="item mb-line-b" data-id="26195">
+            
+        <div class="title-block box-flex middle">
+            <div class="title line-ellipsis">
+                <span>大地院线影城（珠江摩尔店）</span>
+    
+                <span class="price-block">
+                    <span class="price">38</span><span class="q">元起</span>
+                </span>
+    
+            </div>
+            <div class="location-block box-flex">
+                <div class="flex line-ellipsis">昌平区回龙观镇北清路1号院7号楼内7-101-26</div>
+    
+                <div class="distance">4.7km</div>
+    
+            </div>
+    
+    
+            <div class="discount-block">
+    
+                
+                    <div class="discount-label normal card">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAAAXNSR0IArs4c6QAAAgFJREFUSA3Nlz1LA0EQhmf3kouFEQwi+FEYQ+xEsImFoCDoL/CLaKd/QbC0sbCzFVuxsRS1jEVAsUqrIILRQAhaBGKMuawzwpGAm83mNhddCHfZnd3n3Z2ZuxsG2JI3YtQpVw6AiTkhYJj6/GqMwSsIdm312DsnMyzLCF79rGRAiIhfUOm6jL0FQvZU4Gfn0GU4KcINE5vjsc9LFXajE9kcfT7UDZaMQWwuG9Dpi/YyiIWZjqnSxrOAtWgANsYDysV1Bj0L0Flcx8ZoC1F0wf50UMo5fqjCY1FIxxo7jQSUHWgK+ag2YprfGwnIlQTQTk3a/46B2UEOIUu+v0gIIMgZLLTIZHJTOl+TL4K9ShckMc36Q+pc356QB6FLLJQFCqi4f39d2WoKLTy03ckg2OjAvcyXh9n1KX8eA0YC4n0MtuLoJru+o3bvjAS8o2vpfXCYsGEzZkFYHQ5SbcoglM5o6KQAoxhIDHBYiVqYERZcZB04f3aghNGv04wEuIDbQg3u8Lc4YsHymAVLeD17cuDypbWKjgggIZTpVwhM5x1YxzdlpaaXXB0T4J5GEbPy6F7/8WwUhC7U5OpZgIPfU5qnrNTn+UmoXLWNQc8n0AZDacqxUskpLXwcJDbHMinlI0O9NLI51WiAZZLa0odRZBKbU4FINRoDdtoNdxCDWMQk9jePWpE8hVOLbwAAAABJRU5ErkJggg=="
+                            alt="">
+                    </div>
+                    <div class="discount-label-text">开卡特惠，首单2张最高立减4元</div>
+                
+            </div>
+
+            <div class="min-show-block   J-fload" data-bid="dp_wx_buy_cinema_list_spread">
+                <span>近期场次：</span>
+
+                <span class="time-line">11:00 </span>
+                
+                <span class="time-line"> 11:40 </span>
+                
+                <span class="time-line"> 13:10</span>
+            </div>
+        </div>
+    </div>
+    <div class="item mb-line-b" data-id="26195">
+            
+        <div class="title-block box-flex middle">
+            <div class="title line-ellipsis">
+                <span>耀莱成龙影城（温泉镇店）</span>
+    
+                <span class="price-block">
+                    <span class="price">45</span><span class="q">元起</span>
+                </span>
+    
+            </div>
+            <div class="location-block box-flex">
+                <div class="flex line-ellipsis">海淀区温泉镇北部文化中心D座</div>
+    
+                <div class="distance">9.4km</div>
+    
+            </div>
+    
+    
+            <div class="discount-block">
+    
+                
+                    <div class="discount-label normal card">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAAAXNSR0IArs4c6QAAAgFJREFUSA3Nlz1LA0EQhmf3kouFEQwi+FEYQ+xEsImFoCDoL/CLaKd/QbC0sbCzFVuxsRS1jEVAsUqrIILRQAhaBGKMuawzwpGAm83mNhddCHfZnd3n3Z2ZuxsG2JI3YtQpVw6AiTkhYJj6/GqMwSsIdm312DsnMyzLCF79rGRAiIhfUOm6jL0FQvZU4Gfn0GU4KcINE5vjsc9LFXajE9kcfT7UDZaMQWwuG9Dpi/YyiIWZjqnSxrOAtWgANsYDysV1Bj0L0Flcx8ZoC1F0wf50UMo5fqjCY1FIxxo7jQSUHWgK+ag2YprfGwnIlQTQTk3a/46B2UEOIUu+v0gIIMgZLLTIZHJTOl+TL4K9ShckMc36Q+pc356QB6FLLJQFCqi4f39d2WoKLTy03ckg2OjAvcyXh9n1KX8eA0YC4n0MtuLoJru+o3bvjAS8o2vpfXCYsGEzZkFYHQ5SbcoglM5o6KQAoxhIDHBYiVqYERZcZB04f3aghNGv04wEuIDbQg3u8Lc4YsHymAVLeD17cuDypbWKjgggIZTpVwhM5x1YxzdlpaaXXB0T4J5GEbPy6F7/8WwUhC7U5OpZgIPfU5qnrNTn+UmoXLWNQc8n0AZDacqxUskpLXwcJDbHMinlI0O9NLI51WiAZZLa0odRZBKbU4FINRoDdtoNdxCDWMQk9jePWpE8hVOLbwAAAABJRU5ErkJggg=="
+                            alt="">
+                    </div>
+                    <div class="discount-label-text">开卡特惠，首单1张最高立减6元</div>
+                
+            </div>
+
+            <div class="min-show-block   J-fload" data-bid="dp_wx_buy_cinema_list_spread">
+                <span>近期场次：</span>
+
+                <span class="time-line">11:00 </span>
+                
+                <span class="time-line"> 11:40 </span>
+                
+                <span class="time-line"> 13:10</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+{{/each}}

@@ -1,0 +1,61 @@
+.cinema-content .topbar-bg {
+  width: 100%;
+  display: flex;
+  height: .44rem;
+  align-items: center; }
+  .cinema-content .topbar-bg .city-entry {
+    width: .62rem;
+    padding-left: .15rem;
+    font-size: .15rem;
+    color: #666;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center; }
+  .cinema-content .topbar-bg .search-input {
+    display: flex;
+    flex: 1;
+    background-color: #fff;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: .28rem;
+    font-size: .13rem;
+    color: #b2b2b2;
+    margin-left: .18rem;
+    border: .5px solid #e6e6e6;
+    border-radius: .05rem;
+    margin-right: .15rem; }
+    .cinema-content .topbar-bg .search-input img {
+      width: .14rem;
+      height: .14rem;
+      margin-left: .03rem;
+      margin-right: .04rem; }
+
+.cinema-content .tab {
+  width: 100%;
+  height: .4rem;
+  background: #fff;
+  display: flex; }
+  .cinema-content .tab .item {
+    flex: 1;
+    text-align: center;
+    line-height: .4rem;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: .13rem;
+    text-overflow: ellipsis;
+    color: #777; }
+
+.cinema-content .cinema-list {
+  flex: 1;
+  background-color: #fff; }
+  .cinema-content .cinema-list .item {
+    font-size: .14rem;
+    color: #777;
+    padding: .13rem .15rem .13rem 0;
+    margin-left: .15rem;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden; }

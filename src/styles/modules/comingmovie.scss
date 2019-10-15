@@ -1,0 +1,193 @@
+
+.coming-content{
+    .most-expected{
+        padding: 12px 0 12px 15px;
+        background-color: #fff;
+        margin-bottom: 10px;
+        height: 2.16rem;
+        .title{
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 12px;
+        }
+        .most-expected-list-father{
+            overflow: hidden;
+            width: 100%;
+            .most-expected-list{
+                // overflow: scroll;
+                width: max-content;
+                // white-space: nowrap;
+                .expected-item{
+                    display: inline-block;
+                    width: .85rem;
+                    overflow: hidden;
+                    margin-right: 10px;
+                    .poster{
+                        width: 85px;
+                        height: 115px;
+                        position: relative;
+                        margin-bottom: 6px;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                        }
+                        .wish-bg{
+                            display: inline-block;
+                            width: 100%;
+                            height: 35px;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            background-image: linear-gradient(-180deg, rgba(77, 77, 77, 0), #000);
+                        }
+                        .wish{
+                            position: absolute;
+                            left: 4px;
+                            bottom: 2px;
+                            color: #faaf00;
+                            font-size: 11px;
+                            font-weight: 600;
+                            .wish-num{
+                                color: #faaf00;
+                                font-size: 11px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                    .name{
+                        display: block;
+                        margin: 0;
+                        font-size: 13px;
+                        color: #222;
+                        margin-bottom: 3px;
+                        
+                    }
+                    .line-ellipsis{
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                    .date{
+                        margin: 0;
+                        font-size: 12px;
+                        color: #999;
+                    }
+                }
+            }
+        }
+        
+    }
+    .coming-list{
+        .group-date{
+            padding: 12px 15px 0;
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+        }
+        background-color: #fff;
+        .item{
+            width: 100%;
+            display: flex;
+            flex: 1;
+            padding-left: .15rem;
+            background: #fff;
+            @include border(0 0 1px 0);
+            .main-block{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .default-img-bg{
+                    
+                    width: .64rem;
+                    height: .9rem;
+                    background-size: 100% 100%;
+                    img{
+                        width: .64rem;
+                        height: .9rem;
+                    }
+                }
+                .column-content{
+                    width: 100%;
+                    padding: .12rem .14rem .12rem 0;
+                    padding-right: .1rem;
+                    flex: 1;
+                    margin-left: .1rem;
+                    .movie-title{
+                        max-height: .24rem;
+                        margin-bottom: .07rem;
+                        line-height: .24rem;
+                        display: flex;
+                        overflow: hidden;
+                        .title{
+                            font-size: .17rem;
+                            color: #333;
+                            font-weight: 700;
+                            
+                            
+                        }
+                        .version{
+                            height: .14rem;
+                            margin-top: .05rem;
+                            line-height: .14rem;
+                            font-size: .12rem;
+                            margin-left: .05rem;
+                            background: #3c9fe6;
+                            color: #fff;
+                            border-radius: .12rem;
+                        }
+                    }
+                    .detail{
+                        width: 100%;
+                        .wantsee{
+                            line-height: .15rem;
+                            overflow: hidden;
+                            .p-suffix{
+                                font-size: .13rem;
+                                color: #666;
+                            }
+                            .person{
+                                font-weight: 700;
+                                color: #faaf00;
+                                font-size: .15rem;
+                            }
+                        }
+                        .actor{
+                            overflow: hidden;
+                            margin-top: .06rem;
+                            font-size: .13rem;
+                            color: #666;
+                            line-height: .15rem;
+                        }
+                    }
+                    .line-ellipsis{
+                           
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 1;
+                    }
+                    
+                }
+                .button-block{
+                    display: flex;
+                    font-size: .12rem;
+                    height: 100%;
+                    align-items: center;
+                    .btn{
+                        width: .47rem;
+                        height: .27rem;
+                        line-height: .28rem;
+                        text-align: center;
+                        background: #3c9fe6;
+                        border-radius: .04rem;
+                        cursor: pointer;
+                        color: #fff;
+                        margin-right: .2rem;
+                    }
+                }
+            }
+        }
+    }
+
+}

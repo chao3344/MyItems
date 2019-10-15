@@ -1,0 +1,37 @@
+.indexContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .indexContainer header {
+    height: .5rem;
+    background: #e54847;
+    font-size: .18rem;
+    text-align: center;
+    line-height: .5rem;
+    color: #fff; }
+  .indexContainer main {
+    flex: 1;
+    overflow: auto; }
+  .indexContainer footer {
+    height: .48rem; }
+    .indexContainer footer ul {
+      height: 100%;
+      display: flex; }
+      .indexContainer footer ul li {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background: #f6f6f6;
+        font-size: .18rem;
+        align-items: center;
+        color: #696969; }
+        .indexContainer footer ul li .yo-ico {
+          font-size: .25rem;
+          height: .25rem;
+          width: .25rem;
+          line-height: .25rem; }
+        .indexContainer footer ul li .foot-title {
+          font-size: .12rem; }
+        .indexContainer footer ul li.active {
+          background: #fff;
+          color: #f03d37; }

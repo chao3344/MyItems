@@ -1,0 +1,44 @@
+{{each result}}
+
+<div>
+        <p class="group-date">{{$value.comingTitle}}</p>
+
+        <div class="item" data-id="detail-{{$value.id}}" data-bid="dp_wx_home_movie_list">
+            <div class="main-block">
+
+                <div class="default-img-bg">
+                    <img src="{{$value.img}}">
+                </div>
+           
+                    <div class="column-content">
+                        <div class="box-flex movie-title">
+                            <div class="title line-ellipsis ">{{$value.nm}}</div>
+                        </div>
+
+                        <div class="detail column">
+
+                            <div class="wantsee line-ellipsis">
+                                <span class="person">{{$value.wish}}</span>
+                                <span class="p-suffix">人想看</span>
+                            </div>
+
+                            <div class="actor line-ellipsis">{{$value.star}}</div>
+
+                            <div class="actor line-ellipsis">{{$value.showInfo}}</div>
+
+                        </div>
+                    </div>
+
+                    <div class="button-block" data-id="1178432">
+
+                        <div class="btn pre"><span class="fix">预售</span>
+                        </div>
+
+                    </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+{{/each}}

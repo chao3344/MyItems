@@ -1,0 +1,36 @@
+<div class="coming-content">
+
+
+    <div class="most-expected">
+        <p class="title">近期最受期待</p>
+
+        <div class="most-expected-list-father">
+            <div class="most-expected-list">
+                {{each list}}
+                <div class="expected-item" data-id="detail-{{$value.id}}">
+                    <div class="poster default-img-bg">
+                        <img src="{{$value.img}}">
+                        <span class="wish-bg"></span>
+                        <span class="wish"><span class="wish-num">{{$value.wish}}</span>人想看</span>
+
+                    </div>
+                    <h5 class="name line-ellipsis">{{$value.nm}}</h5>
+                    <p class="date line-ellipsis">{{$value.comingTitle}}</p>
+                </div>
+
+
+                {{/each}}
+            </div>
+        </div>
+    </div>
+
+    <div class="coming-list">
+        
+
+
+
+    </div>
+
+
+
+</div>

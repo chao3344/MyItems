@@ -1,0 +1,47 @@
+<div class="all-content">
+    <!-- <div class="head">
+        <img src="/assets/images/arrow.png"/>
+        <b>下拉刷新...</b>
+      </div> -->
+      
+      
+  <div class="download-header">
+    <div class="logo-img"></div>
+    <div class="info-wrapper">
+      <div class="title">猫眼</div>
+      <div class="content">0 元看电影，天天领现金</div>
+    </div>
+    <div class="link-btn">立即领取</div>
+</div>
+
+<section class="topbar">
+  <div class="white-bg topbar-bg ">
+    <div class="city-entry">
+      <span class="city-name">北京</span><i class="city-entry-arrow"></i>
+    </div>
+    
+    <div class="switch-hot" data-active=".n-hot">
+      <div class="hot-item active" data-to="position">正在热映</div>
+      <div class="hot-item" data-to="moviefhot">即将上映</div>
+    </div>
+    <div class="search-entry search-icon yo-ico" data-type="movie">&#xe625;</div>
+    
+  </div>
+
+</section>
+
+<div class="list-wrap">
+  <div class="hotmovie">
+
+  </div>
+
+
+
+  <div class="foot">
+      <img src="/assets/images/arrow.png"/>
+      <b>上拉加载更多...</b>
+  </div>
+</div>
+
+
+</div>
